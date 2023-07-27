@@ -45,7 +45,7 @@ services:
   # and will start the `db` service automatically before starting itself.
   service:
     container_name: mathesar_service
-    image: mathesar/mathesar-prod:latest
+    image: mathesar/mathesar-prod:2023-06-27
     environment:
       - MODE=${MODE-PRODUCTION}
       - DEBUG=${DEBUG-False}
